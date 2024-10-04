@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ShayariAppMVVMArchitecture" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.ShayariAppMVVMArchitecture" parent="Base.Theme.ShayariAppMVVMArchitecture" />
+
+    <style name="Theme.ShayariAppMVVMArchitecture.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.ShayariAppMVVMArchitecture.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.ShayariAppMVVMArchitecture.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>
